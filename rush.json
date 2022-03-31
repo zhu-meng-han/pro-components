@@ -1,0 +1,64 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+
+  "rushVersion": "5.63.1",
+
+  "pnpmVersion": "6.7.1",
+
+  "pnpmOptions": {
+    "useWorkspaces": true
+  },
+
+  "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0 || >=16.13.0 <17.0.0",
+
+  "gitPolicy": {},
+
+  "variants": [],
+
+  "repository": {
+    "url": "https://github.com/ant-design/pro-components"
+  },
+
+  "projects": [
+    {
+      "packageName": "@ant-design/pro-layout",
+      "projectFolder": "packages/layout"
+    },
+    {
+      "packageName": "@ant-design/pro-card",
+      "projectFolder": "packages/card"
+    },
+    {
+      "packageName": "@ant-design/pro-descriptions",
+      "projectFolder": "packages/descriptions"
+    },
+    {
+      "packageName": "@ant-design/pro-field",
+      "projectFolder": "packages/field"
+    },
+    {
+      "packageName": "@ant-design/pro-form",
+      "projectFolder": "packages/form"
+    },
+    {
+      "packageName": "@ant-design/pro-list",
+      "projectFolder": "packages/list"
+    },
+    {
+      "packageName": "@ant-design/pro-provider",
+      "projectFolder": "packages/provider"
+    },
+    {
+      "packageName": "@ant-design/pro-skeleton",
+      "projectFolder": "packages/skeleton"
+    },
+    {
+      "packageName": "@ant-design/pro-table",
+      "projectFolder": "packages/table"
+    },
+    {
+      "packageName": "@ant-design/pro-utils",
+      "projectFolder": "packages/utils"
+    }
+  ]
+}
