@@ -129,6 +129,7 @@ async function release() {
 
   const publishList = pkgs.map((pkg, index) => {
     const pkgPath = join(cwd, 'packages', pkg.replace('pro-', ''));
+    console.log('publishList', pkg, pkgPath);
     const { name, version } = require(join(pkgPath, 'package.json'));
     const isNext = isNextVersion(version);
     let isPackageExist = null;

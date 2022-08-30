@@ -38,6 +38,7 @@ const getMds = async (allVersion = false) => {
   const docDir = path.join(__dirname, '..', 'docs');
   const mdFils = fs.readdirSync(docDir).filter((name) => name.includes('changelog.md'));
   mdFils.map((mdFile) => {
+    console.log('mdFile', mdFile);
     const pkg = mdFile.replace('pro-', '').replace('.changelog.md', '');
     const content = fs.readFileSync(path.join(docDir, mdFile)).toString();
     let versions = [
@@ -52,7 +53,7 @@ const getMds = async (allVersion = false) => {
     }
     console.log(versions.toString());
     versions.map(async (version) => {
-      const versionPkg = `@ant-design/pro-${pkg}@${version}`;
+      const versionPkg = `@xforce-ux/${pkg}@${version}`;
       const changeLog = getChangelog(content, versionPkg);
       if (!changeLog) {
         return;

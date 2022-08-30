@@ -12,7 +12,7 @@ const pkgList = readdirSync(join(__dirname, 'packages')).filter(
 );
 
 const alias = pkgList.reduce((pre, pkg) => {
-  pre[`@ant-design/pro-${pkg}`] = join(__dirname, 'packages', pkg, 'src');
+  pre[`@xforce-ux/${pkg}`] = join(__dirname, 'packages', pkg, 'src');
   return {
     ...pre,
   };

@@ -1,4 +1,4 @@
-import ProSkeleton from '@ant-design/pro-skeleton';
+import ProSkeleton from '@xforce-ux/skeleton';
 
 export default () => (
   <div
