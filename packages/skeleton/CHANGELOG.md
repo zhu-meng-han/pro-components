@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<<<<<<< HEAD
+
 # [2.0.0-experimental.9](https://github.com/ant-design/pro-components/compare/@ant-design/pro-skeleton@2.0.0-experimental.8...@ant-design/pro-skeleton@2.0.0-experimental.9) (2022-08-24)
 
 **Note:** Version bump only for package @ant-design/pro-skeleton
@@ -32,7 +34,17 @@ All notable changes to this project will be documented in this file. See [Conven
 
 # [2.0.0-experimental.2](https://github.com/ant-design/pro-components/compare/@ant-design/pro-skeleton@1.0.13...@ant-design/pro-skeleton@2.0.0-experimental.2) (2022-08-01)
 
-**Note:** Version bump only for package @ant-design/pro-skeleton
+# **Note:** Version bump only for package @ant-design/pro-skeleton
+
+## 0.0.2 (2022-08-29)
+
+### Bug Fixes
+
+- [#5273](https://github.com/ant-design/pro-components/issues/5273) for all components ([#5314](https://github.com/ant-design/pro-components/issues/5314)) ([d25e87c](https://github.com/ant-design/pro-components/commit/d25e87c68db8e3c8d120ffc4cc7cd95e33ce6c24))
+- **colsize:** fix colsize warning ([#1245](https://github.com/ant-design/pro-components/issues/1245)) ([af674b6](https://github.com/ant-design/pro-components/commit/af674b661f53ef7f537bd49bea32784274cf0d34))
+- **form:** ProFormList use uuid ([#4479](https://github.com/ant-design/pro-components/issues/4479)) ([11b3f71](https://github.com/ant-design/pro-components/commit/11b3f717cf545d9a361f173975586a99375c6517))
+- **table:** use menu.items render menu.item ([6f32179](https://github.com/ant-design/pro-components/commit/6f32179c6f411ac77fb743294d9d7838fa4bfc04))
+  > > > > > > > 9ccfadcf2100f0c2762d9355ee6e9ffd3e439788
 
 ## [1.0.13](https://github.com/ant-design/pro-components/compare/@ant-design/pro-skeleton@1.0.12...@ant-design/pro-skeleton@1.0.13) (2022-07-22)
 
