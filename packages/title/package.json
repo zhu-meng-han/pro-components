@@ -1,6 +1,6 @@
 {
   "name": "@xforce-ux/title",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "基于 antd form 相关空间组装成filter",
   "keywords": [
     "antd",
