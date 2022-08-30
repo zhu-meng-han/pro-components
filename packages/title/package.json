@@ -1,0 +1,46 @@
+{
+  "name": "@xforce-ux/title",
+  "version": "0.0.1",
+  "description": "基于 antd form 相关空间组装成filter",
+  "keywords": [
+    "antd",
+    "input",
+    "select",
+    "data",
+    "checkbox",
+    "radio"
+  ],
+  "homepage": "",
+  "bugs": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "sideEffects": [
+    "*.less"
+  ],
+  "main": "es/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "files": [
+    "es",
+    "dist"
+  ],
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 11"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.18.0",
+    "classnames": "^2.3.1"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
